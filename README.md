@@ -1,4 +1,4 @@
 # dcheck
-a few years ago,i wrote this.
+a few years ago,wrote this.
 mark.
 php framework
