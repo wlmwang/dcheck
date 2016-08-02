@@ -1,12 +1,5 @@
 #########
 */10 * * * * /usr/local/webserver/php/bin/php /data/web/Dcheck/DcApp/index.php c=ExchangeLog/run plat=1 >/dev/null 2>&1
-*/10 * * * * /usr/local/webserver/php/bin/php /data/web/Dcheck/DcApp/index.php c=PayLog/run plat=1 >/dev/null 2>&1
-*/10 * * * * /usr/local/webserver/php/bin/php /data/web/Dcheck/DcApp/index.php c=CheckExchangeLog/run plat=1 >/dev/null 2>&1
-*/10 * * * * /usr/local/webserver/php/bin/php /data/web/Dcheck/DcApp/index.php c=CheckPayLog/run plat=1 >/dev/null 2>&1
-0 3 * * * /usr/local/webserver/php/bin/php /data/web/Dcheck/DcApp/index.php c=MoneyStock/run plat=1 >/dev/null 2>&1
 
 #
 0 2 * * * /usr/local/webserver/php/bin/php /data/web/Dcheck/DcApp/index.php c=ExchangeLog/run plat=1 auto=1 >/dev/null 2>&1
-0 2 * * * /usr/local/webserver/php/bin/php /data/web/Dcheck/DcApp/index.php c=PayLog/run plat=1 auto=1 >/dev/null 2>&1
-0 2 * * * /usr/local/webserver/php/bin/php /data/web/Dcheck/DcApp/index.php c=CheckExchangeLog/run plat=1 auto=1 >/dev/null 2>&1
-0 2 * * * /usr/local/webserver/php/bin/php /data/web/Dcheck/DcApp/index.php c=CheckPayLog/run plat=1 auto=1 >/dev/null 2>&1
