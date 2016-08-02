@@ -6,7 +6,7 @@
 class ExchangeLogController extends CController
 {	
 	protected $curl = array(
-		1	=> 'http://passport.dcapp.com/payment/GetOrderLog',
+		1	=> 'http://localhost/payment/GetOrderLog',
 	);
 	
 	protected $secret = array(
@@ -14,7 +14,7 @@ class ExchangeLogController extends CController
 	);
 	
 	protected $plat;	//平台
-	protected $begin_ts; //开始时间
+	protected $begin_ts; 	//开始时间
 	protected $end_ts;	//结束时间
 	protected $ts;		//请求时间
 	protected $action;	//请求动作
