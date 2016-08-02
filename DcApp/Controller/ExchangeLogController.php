@@ -2,22 +2,15 @@
 /**
  * 兑换订单日志
  * @author wanglm
- * http://dcheck.uuzu.asia/index.php?c=ExchangeLog/run
  */
 class ExchangeLogController extends CController
 {	
 	protected $curl = array(
-			1		=> 'http://passport.youzu.com/payment/GetOrderLog',//游族
-			3 		=> 'http://open.9787.com/?c=order&a=exchange',//9787
-			590		=> 'http://accounts.gtarcade.com/sync/GetOrderLog', //北美
-			10000	=> 'http://mp.uuzu.com/api/GetOrderLog', //手游
+		1	=> 'http://passport.dcapp.com/payment/GetOrderLog',
 	);
 	
 	protected $secret = array(
-			1 =>'!@#$%^&*()',
-			590 =>'!@#$%^&*()',
-			10000 =>'!@#$%^&*()',
-			3 => 'P6Xqr9#TL@pNc6T7',
+		1 =>'!@#$%^&*()',
 	);
 	
 	protected $plat;	//平台
